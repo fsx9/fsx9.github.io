@@ -1,0 +1,138 @@
+#box{
+    width:100%;
+    height:2700px;
+    background: pink;
+}
+#box .content{
+    width:1166px;
+    height:84px;
+    background:peru;
+    margin:auto; 
+}
+#box .header{
+    width:100%;
+    height:84px;
+    background: tomato;
+}
+.header .logo{
+    text-indent: -999px;
+    background-image: url(../images/logo.png); 
+    width:390px;
+    height:100%; 
+    float:left;
+    background-repeat: no-repeat;
+    margin-left: 100px;  
+}
+.header .wenzi li{
+    margin-right: 60px;
+    font-size: 13px;
+    height:84px;
+    line-height: 84px;
+    text-align: center;
+}
+#box .nav{
+    width:100%;
+    height:638px;
+    background-image: url(../images/56f3527bb57ce.jpg);
+    background-position: center center;
+}
+#box .main1{
+    width:100%;
+    height:728px;
+    background: #ebeff1;
+    text-align: center;
+    overflow: hidden;
+}
+#box .main1  h2{
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 42px;
+   
+}
+#box .main1  h3{
+    font-size: 17px;
+    text-align: center;
+    line-height: 17px;
+    /* margin-top:74px; */
+
+}
+.main1 .hezi{
+    width: 1144px;
+    height:446px;
+    background:blueviolet;
+}
+/* .main1 .hezi img{
+    float:left;
+    margin-right: 42px;
+} */
+#box .main1 .aa{
+    position:relative;
+    width:352px;
+    height:220px;
+  margin-right: 40px;
+}
+ #box .main1 .aa .title{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:228px;
+        height:71px;
+        background: rgb(0, 147, 221);
+        line-height: 71px;
+        text-align: center;
+    }
+#box .main1 .aa .gg{
+    position:absolute;
+    top:0px;
+    background: rgb(0, 147, 221);
+    width:100%;
+    height:100%; 
+    display:none;      
+}
+#box .main1 .aa:hover .gg{
+    display:block;   
+}
+#box .main2{
+    width:100%;
+    height:692px;
+     background:red;
+}
+#box .main2 .content1{
+    width:1144px;
+    height:692px;
+    background:blue;
+    margin:auto;
+}
+
+#box .main3{
+    width:100%;
+    height:694px;
+     background:goldenrod;
+}
+#box .main4{
+    width:100%;
+    height:801px;
+     background:fuchsia;
+}
+#box .main5{
+    width:100%;
+    height:379px;
+     background:palegreen;
+}
+#box .main6{
+    width:100%;
+    height:462px;
+    background: #00264d;
+}
+#box .main7{
+    width:100%;
+    height:224px;
+    background: #0064c3;
+}
+#box .footer{
+    width:100%;
+    height:603px;
+    background:#353535;
+}
+
