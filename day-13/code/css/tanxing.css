@@ -1,0 +1,319 @@
+
+#box{
+    height: 1581px;
+    width: 100%;
+   
+}
+.content{
+    width: 1206px;
+    height: 100%;
+    background: pink;
+    margin: auto;
+}
+
+
+
+#box .box1{
+    height: 391px;
+    position: relative;
+}
+#box .box1 .box1-top{
+    text-align: center;
+    height: 100%;
+    background:url(../images/bg.png) no-repeat;
+    
+    /* background-size: contain; */
+    font-size: 33px;
+    line-height: 33px;
+    padding-top: 56px;
+    box-sizing: border-box;
+    
+}
+#box .box1 .box1-bottom{
+    height: 250px;
+    position: absolute;
+    top: 136px;
+    left: 50%;
+    margin-left: -603px;
+}
+#box .box1 .box1-bottom ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: auto; 
+    box-shadow: 0 -5px 5px 0 #f7f7f7 inset;
+}
+#box .box1 .box1-bottom ul li{
+    /* width: 70px; */
+    height: 92px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+#box .box1 .box1-bottom ul li span{
+    background: url(../images/1.png) no-repeat;
+    height: 72px;
+    width: 72px;
+    display: block;
+    margin-bottom: 35px;
+    /* background-size: 20% 20%; */
+}
+#box .box1 .box1-bottom .list1 span{
+    background-position: -0px -0px;
+   
+}
+#box .box1 .box1-bottom .list2 span{
+    background-position: -0px -375px;
+}
+#box .box1 .box1-bottom .list3 span{
+    background-position: -0px -150px;
+}
+#box .box1 .box1-bottom .list4 span{
+    background-position: -0px -225px;
+}
+#box .box1 .box1-bottom .list5 span{
+    background-position: -0px -450px;
+
+}
+#box .box1 .box1-bottom .list6 span{
+    background-position:  -0px -72px;
+
+}
+#box .box1 .box1-bottom .list7 span{
+    background-position:  -0px -295px;
+
+}
+#box .box1 .box1-bottom .list8 span{
+    background-position:  -0px -525px;
+
+}
+#box .box-1{
+    height: 360px;
+    font-size: 32px;
+    line-height: 32px;
+  box-sizing: border-box;
+}
+#box .box-1 h2{
+    padding-top: 60px;
+    text-align: center;
+}
+#box .box-1 ul{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 45px;
+   
+}
+#box .box-1 ul li{
+align-self: flex-end; 
+
+}
+#box .box-1 ul li p{
+    font-size: 19px;
+    line-height: 19px;
+    margin-top: 19px;
+    text-indent: 2em;
+}
+#box .box3 .box3-1{
+   background: url(../images/t.png) no-repeat left center;
+   background-size: 15px 15px;
+}
+#box .box3 .box3-1 p{
+    text-indent: 35px;
+}
+#box .box3 {
+    height: 133px;
+    box-sizing: border-box;
+}
+#box .box3 ul{
+   padding-top: 40px;  
+}
+#box .box3 ul li{
+    float:left;
+    margin-right: 20px;
+    font-size:12px; 
+}
+#box .box3 ul .box3-1{
+    height:15px;
+    width: 98px;
+    border-right: 1px solid black;
+    font-weight: bold;
+    /* margin-top: 40px;  */   
+}
+#box .box4{
+    height: 522px;
+    box-sizing: border-box;
+}
+#box .box4 .bb{
+    font-size: 33px;
+    line-height: 33px;
+    padding-top: 59px;
+    text-align: center;
+}
+#box .box4 li{
+    float: left;
+    font-size: 15px;
+    line-height: 15px;
+    margin-right: 24px;
+}
+    #box .box4 li:hover{
+        text-decoration: underline;
+    }
+    
+
+#box .box4 .box4-1{
+  width: 450px;
+  margin: auto;
+   margin-top: 30px;
+    height: 15px;
+}
+#box .box4 .box4-2{
+    margin-top:37px;
+}
+#box .box4 .box4-2 .list1{
+    height: 285px;
+    width: 285px;
+    background: url(../images/img1.png);
+    position: relative;
+}
+#box .box4 .box4-2 .list2{
+    background: url(../images/img2.png);
+    height: 285px;
+    width: 285px;
+    position: relative;
+}
+#box .box4 .box4-2 .list3{
+    background: url(../images/img3.png);
+    height: 285px;
+    width: 285px;
+    position: relative;
+}
+#box .box4 .box4-2 .list4{
+    background: url(../images/img4.png);
+    height: 285px;
+    width: 285px;
+    position: relative;
+}
+#box .box4 .box4-2{
+    display: flex;
+    justify-content: space-between;
+}
+#box .box4 .box4-2 h2{
+    font-size: 24px;
+    line-height: 24px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+#box .box4 .box4-2 ul li{
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 14px;
+    position: relative;
+}
+#box .box4 .box4-2 ul li span {
+    margin-right: 4px;
+}
+#box .box4 .box4-2 ul li::after{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    content: '/';
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 14px;
+}
+#box .box4 .box4-2 .list-1{
+    box-sizing: border-box;
+    width: 254px;height: 111px;
+    position: absolute;
+    left: 50%;
+    top:230px;
+    margin-left: -127px;
+    background: white;
+  
+}
+#box .box4 .box4-2 ul{
+    width: 160px;
+    height: 13px;
+    margin-left:20px;
+    margin-top: 35px;
+}
+#box .box4 .box4-2 .list-2{
+    box-sizing: border-box;
+    width: 254px;height: 111px;
+    position: absolute;
+    left: 50%;
+    top:230px;
+    margin-left: -127px;
+    background: white;
+}
+#box .box4 .box4-2 .list-3{
+    box-sizing: border-box;
+    width: 254px;height: 111px;
+    position: absolute;
+    left: 50%;
+    top:230px;
+    margin-left: -127px;
+    background: white;
+}
+#box .box4 .box4-2 .list-4{
+    box-sizing: border-box;
+    width: 254px;height: 111px;
+    position: absolute;
+    left: 50%;
+    top:230px;
+    margin-left: -127px;
+    background: white;
+}
+#box .box4 .box4-1 li span {
+    margin-right: 4px;
+}
+#box .box4 ul li::after{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    content: '/';
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 14px;
+}
+#box .box4 .box4-1 li{
+    position: relative;
+}
+#box .box4 .box4-2 .list-1:hover
+{
+margin-top: -10px;
+}
+#box .box4 .box4-2 .list-2:hover{
+    margin-top: -10px;
+    }
+    #box .box4 .box4-2 .list-3:hover{
+        margin-top: -10px;
+        }
+        #box .box4 .box4-2 .list-4:hover{
+            margin-top: -10px;
+            }
+.box1 .box1-bottom div{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    }
+    .box1 .box1-bottom div span{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+    }
+
+    /* .box1 .box1-bottom .list1{
+        position: relative;
+    } */
+
+.box1 .box1-bottom div:hover{
+    background: red;
+
+}
+.box1 .box1-bottom div:hover .aa{
+  background-position: ;
+}
