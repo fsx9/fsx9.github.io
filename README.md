@@ -10,4 +10,7 @@
 <br>
 ## day13作业
 <a href="https://fsx9.github.io/day13/code/html/弹性.html">婚礼纪小部分</a>
+<br>
+## 360动画作业
+<a href="https://fsx9.github.io/360/code/html/360.html">360动画</a>
 

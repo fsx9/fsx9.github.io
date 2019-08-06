@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        ul {
+            width: 1000px;
+            height: 40px;
+            border: 1px solid #cccccc;
+            display: flex;
+            margin: 50px;
+        }
+
+        li {
+            width: 99px;
+            border-right: 1px solid #ccc;
+            font-size: 12px;
+            line-height: 40px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: #ccc;
+            align-items: center;
+        }
+
+        li i {
+            background: url(../images/360bg.png) no-repeat;
+            width: 23px;
+            height: 20px;
+        }
+
+        li:nth-child(1) i {
+            background-position: 0px -63px;
+        }
+
+        li:nth-child(2) i {
+            background-position: 0px -141px;
+        }
+
+        li:nth-child(3) i {
+            background-position: 0px -222px;
+        }
+
+        li:nth-child(4) i {
+            background-position: 0px -305px;
+        }
+
+        li:nth-child(5) i {
+            background-position: 0px -385px;
+        }
+
+        li:nth-child(6) i {
+            background-position: 0px -465px;
+        }
+
+        li:nth-child(7) i {
+            background-position: 0px -541px;
+        }
+
+        li:nth-child(8) i {
+            background-position: 0px -615px;
+        }
+
+        li:nth-child(9) i {
+            background-position: 0px -693px;
+        }
+
+        li:nth-child(10) i {
+            background-position: 0px -770px;
+        }
+
+        ul li {
+            position: relative;
+        }
+
+        li:nth-child(-n+10) i {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            transition: background-position 1s;
+
+        }
+
+        li:nth-child(1):hover i {
+            background-position: 0px -100px;
+
+        }
+
+        li:nth-child(2):hover i {
+            background-position: 0px -180px;
+
+        }
+
+        li:nth-child(3):hover i {
+            background-position: 0px -260px;
+
+        }
+
+        li:nth-child(4):hover i {
+            background-position: 0px -345px;
+
+        }
+
+        li:nth-child(5):hover i {
+            background-position: 0px -425px;
+
+        }
+
+        li:nth-child(6):hover i {
+            background-position: 0px -505px;
+
+        }
+
+        li:nth-child(7):hover i {
+            background-position: 0px -575px;
+
+        }
+
+        li:nth-child(8):hover i {
+            background-position: 0px -655px;
+
+        }
+
+        li:nth-child(9):hover i {
+            background-position: 0px -732px;
+
+        }
+
+        li:nth-child(10):hover i {
+            background-position: 0px -812px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+            <li>
+                <i></i>
+                <span>我的主页</span>
+            </li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
